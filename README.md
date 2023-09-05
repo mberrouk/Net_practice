@@ -19,6 +19,7 @@ or more IP address)_
 	```
 	199.12.34.5
 	```
+	- The way IPv4 address are constructed means it's able to provide over 4 bilion unique IP addresses (2<sup>32</sup>)
 - **IPv6** address:
 	- 128 bits, usually written in 8 groups, each is 4 digits of hexadecimal, separated by colon, with leading 0
 	  omitted, each group of hexadecimal represents 16 bits.
@@ -26,3 +27,4 @@ or more IP address)_
 	```
 	2001:db8:0:1234:0:567:8:1
 	```
+	- IPv6 supports 340 trillion, trillion, trillion addresses (2<sup>128</sup>). That's 340 with 12 zeros!
