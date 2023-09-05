@@ -12,16 +12,16 @@ device to communicate with other devices over an IP-based network like the inter
 or more IP address)_
 
 > There are 2 version of IP address: **IPv4** and **IPv6**
-	- **IPv4** address:
-		- 32 bits, usually written in 4 groups, each as a decimal, each decimal group represent 8 bits.
-		_example_:
-		```
-		199.12.34.5
-		```
-	- **IPv6** address:
-		- 128 bits, usually written in 8 groups, each is 4 digits of hexadecimal, separated by colon, with leading 0
-		  omitted, each group of hexadecimal represents 16 bits.
-		_example_:
-		```
-		2001:db8:0:1234:0:567:8:1
-		```
+- **IPv4** address:
+	- 32 bits, usually written in 4 groups, each as a decimal, each decimal group represent 8 bits.
+	_example_:
+	```
+	199.12.34.5
+	```
+- **IPv6** address:
+	- 128 bits, usually written in 8 groups, each is 4 digits of hexadecimal, separated by colon, with leading 0
+	  omitted, each group of hexadecimal represents 16 bits.
+	_example_:
+	```
+	2001:db8:0:1234:0:567:8:1
+	```
