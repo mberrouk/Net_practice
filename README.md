@@ -9,3 +9,7 @@ An **IP**, short for **Internet Protocol** is a set of rules, for routing and ad
 
 An **IP address**, is an identifying number for network hardware connected to a network. Having an IP address allows a
 device to communicate with other devices over an IP-based network like the internet.
+> Most IP addresses look like this
+```
+151.168.0.1
+```
