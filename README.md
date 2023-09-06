@@ -29,7 +29,7 @@ or more IP address)_
 	```
 	- IPv6 supports 340 trillion, trillion, trillion addresses (2<sup>128</sup>). That's 340 with 12 zeros!
 
-**Different types of IP addresses**:
+### Different types of IP addresses:
 While all IP addresses are made up of numbers or letters, not all addresses are used for the same purpose. There are
 specific types of IP addresses:
 	- **Public IP Address:**
