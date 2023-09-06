@@ -36,7 +36,9 @@ specific types of IP addresses:
 	- Public IP addresses are used on hosts connected to the internet. Each public IPv4 address is unique on the
 	  whole internet. Only public IP addresses are routable on the internet.
 	- Although each public IP address is unique, we can have shared public IPs which are used by many hosts. This
-	  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload** \
+	  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload**\
 	  _(NAT **Network Address Translation** Overload, also know as PAT (Port Address Translation): The main purpose
-	  of NAT is to hide the IP address (usually private) of a client in order to reserve the public address space.)_
-		  
+	  of NAT is to hide the IP address (usually private) of a client in order to reserve the public address space.)_\
+	For example, your home network might have several internal client hosts (laptops, smartphones, etc) each having a
+	private IP address. All these internal hosts share a single public IP which is assigned to the WAN interface of your
+	home router device. Therefore, these internal hosts can now access the internet using the public IP of the router. 
