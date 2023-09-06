@@ -51,3 +51,13 @@ specific types of IP addresses:
 	- These are used inside a network. These types of IP addresses provide a way for devices to communicate with a
 	  router and the other devices on the private home network. Private IP addresses can be set manually or assigned
 	  automatically by the router.
+- **Dynamic/Static ip:**
+	- Private IP and public IP are either dynamic or static, which means that, respectively, they either change or they
+	  don't.
+	- An IP address that is assigned by a DHCP server is a dynamic IP. If a device doesn't have DHCP enabled or doesn't
+	  support DHCP, then the IP address must be assigned manually, in which case it's called a statis IP address.
+		- Dynamic IP:
+		Always keep changing. It is temporary and are allocated to a device every time it
+		connects to the web. 
+		- Static IP:
+		Static IP address never changes, but it can be altered as part of routine network administra		tion.
