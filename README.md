@@ -33,7 +33,9 @@ or more IP address)_
 While all IP addresses are made up of numbers or letters, not all addresses are used for the same purpose. There are
 specific types of IP addresses:
 - **Public IP Address:**
-	- Public IP addresses are used on hosts connected to the internet. Each public IPv4 address is unique on the
+	- These are used on the outside of a network and are assigned by an ISP _Internet Service Provider_. It's the main
+	  address that a home or business network uses to communicate with the rest of the networked devices around the
+	  world.
 	  whole internet. Only public IP addresses are routable on the internet.
 	- Although each public IP address is unique, we can have shared public IPs which are used by many hosts. This
 	  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload**. \
@@ -45,3 +47,4 @@ specific types of IP addresses:
 	home router device. Therefore, these internal hosts can now access the internet using the public IP of the router. \
 		_WAN : a wide-area network is a collection of local-area networks (LANs) or other networks that communicate with
 	one another. A WAN is essentially a network of networks, with the Internet the world's largest WAN._ 
+- **
