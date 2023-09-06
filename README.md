@@ -47,4 +47,7 @@ specific types of IP addresses:
 	home router device. Therefore, these internal hosts can now access the internet using the public IP of the router. \
 		_WAN : a wide-area network is a collection of local-area networks (LANs) or other networks that communicate with
 	one another. A WAN is essentially a network of networks, with the Internet the world's largest WAN._ 
-- **
+- **Private IP Address:**
+	- These are used inside a network. These types of IP addresses provide a way for devices to communicate with a
+	  router and the other devices on the private home network. Private IP addresses can be set manually or assigned
+	  automatically by the router.
