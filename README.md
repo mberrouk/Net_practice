@@ -32,11 +32,11 @@ or more IP address)_
 ### Different types of IP addresses:
 While all IP addresses are made up of numbers or letters, not all addresses are used for the same purpose. There are
 specific types of IP addresses:
-	- **Public IP Address:**
-		- Public IP addresses are used on hosts connected to the internet. Each public IPv4 address is unique on the
-		  whole internet. Only public IP addresses are routable on the internet.
-		- Although each public IP address is unique, we can have shared public IPs which are used by many hosts. This
-		  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload**
-		  _NAT **Network Address Translation** Overload, also know as PAT (Port Address Translation): The main purpose
-		  of NAT is to hide the IP address (usually private) of a client in order to reserve the public address space._
+- **Public IP Address:**
+	- Public IP addresses are used on hosts connected to the internet. Each public IPv4 address is unique on the
+	  whole internet. Only public IP addresses are routable on the internet.
+	- Although each public IP address is unique, we can have shared public IPs which are used by many hosts. This
+	  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload**
+	  _NAT **Network Address Translation** Overload, also know as PAT (Port Address Translation): The main purpose
+	  of NAT is to hide the IP address (usually private) of a client in order to reserve the public address space._
 		  
