@@ -39,6 +39,7 @@ specific types of IP addresses:
 	  sharing mechanism was created to conserve IP address space and is usually implemented using **NAT overload**\
 	  _(NAT **Network Address Translation** Overload, also know as PAT (Port Address Translation): The main purpose
 	  of NAT is to hide the IP address (usually private) of a client in order to reserve the public address space.)_\
-	For example, your home network might have several internal client hosts (laptops, smartphones, etc) each having a
+
+		- For example, your home network might have several internal client hosts (laptops, smartphones, etc) each having a
 	private IP address. All these internal hosts share a single public IP which is assigned to the WAN interface of your
 	home router device. Therefore, these internal hosts can now access the internet using the public IP of the router. 
