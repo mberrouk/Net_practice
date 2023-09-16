@@ -86,12 +86,67 @@ specific types of IP addresses:
 - The IPv4 addressing system is divided into five classes of IP addresses. All the five classes are indentified by the
   first octet of IP Address.
 	- **Class A:**
+		- Class A addresses are for networks with large number of total hosts.
 		- The first bit of the first octet is always set to 0. Thus the first octet ranges from 1 - 127.
+		```
+		00000001 - 01111111
+			   1 - 127
+		```
+		- The remaining three octets represent the hosts ID and allows for approximately 17 million
+		hosts per network.
 		- Class A addresses only include IP starting from 1.x.x.x to 126.x.x.x only. The IP range 127.x.x.x is reserved
 		  for loopback IP addresses.
 		- The default subnet mask for Class A IP address is 255.0.0.0 which implies that Class A addressing can have 126
-		  networks (2<sup>24</sup> - 2)
-
+		  networks (2<sup>24</sup> - 2).
+		- Public IP Range: 1.0.0.0 to 127.0.0.0
+			- First octet value range from 1 to 127
+		- Private IP Range: 10.0.0.0 to 10.255.255.255
+		- Number of networks: 126
+		- Number of Hosts per Network: 16,777,214
+		- Class A IP address format:
+		```
+		0NNNNNNN.HHHHHHHH.HHHHHHHH.HHHHHHHH
+		```
+	- **Class B:**
+		- Class B addresses are for medium to large sized networks, it allows for 16384 networks by using the first two
+		  octets for the network ID. The first two bits in the first octet are always 1 0. The remaining six bits,
+		  toghether with the second octet, complete the network ID. The 16 bits in the third and fourth octet represent
+		  host ID and allows for approximately 65000 hosts per network.
+		- Class B network number values begin at 128 and end at 191.
+		```
+		10000000 - 10111111
+			 128 - 191
+		```
+		- Public IP Range: 128.0.0.0 to 191.255.0.0
+			- First octet value range from 128 to 191
+		- Private IP Range: 172.16.0.0 to 173.31.255.255
+		- Subnet Mask: 255.255.0.0 (16 bits)
+		- Number of Networks: 16382
+		- Numebr of Hosts per Network: 65534
+		- Class B IP address format is:
+		```
+		10NNNNNN.NNNNNNNN.HHHHHHHH.HHHHHHHH
+		```
+	- **Class C:**
+		- Class C addresses are used in small locla area networks (LANs). Class C allows for approximately 2 million
+		  networks by using the first three octets for the network ID.
+		- In a Class C IP address, the first three bits of the first octet are always 1 1 0;
+		and the remaining 21 bits of first three octets complete the network ID. The last octet (8 bits) represent the
+		host ID and allows for 254 hosts per network. Class C network number values begins at 192 and end at 223.
+		```
+		11000000 - 11011111
+			 192 - 223
+		```
+		- Public IP Range: 192.0.0.0 to 223.255.255.0
+			- First octet value range from 192 to 223
+		- Private IP Range: 192.168.0.0 to 192.168.255.255
+		- Subnet Mask: 255.255.255.0 (24 bits)
+		- Number of networks: 2,097,150
+		- Number of hosts per network: 254
+		- Class C IP address format is:
+		```
+		110NNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
+		```
 ### Subnet Mask:
 
 - To separate network addresses from host addresses, IPv4 uses an additional component with IP addresses. This component
