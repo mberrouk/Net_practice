@@ -120,6 +120,10 @@ specific types of IP addresses:
 		- Public IP Range: 128.0.0.0 to 191.255.0.0
 			- First octet value range from 128 to 191
 		- Private IP Range: 172.16.0.0 to 173.31.255.255
+			- Private APIPA Range: 169.254.0.0 to 169.254.255.255
+				- APIPA: Automatic Private IP Addressing is a feature with MICROSOFT Windows-based computers to
+				  automatically assign itself an IP address within this range if a DHCP server is not available on the
+				  network.
 		- Subnet Mask: 255.255.0.0 (16 bits)
 		- Number of Networks: 16382
 		- Numebr of Hosts per Network: 65534
@@ -147,6 +151,27 @@ specific types of IP addresses:
 		```
 		110NNNNN.NNNNNNNN.NNNNNNNN.HHHHHHHH
 		```
+	- **Class D:**
+		- Class D IP addresses are not allocated to hosts and are used for multicasting;
+		Multicasting allows a single host to send a single stream of data to thousands of hosts across the internet at
+		the same time. It is often used for audio and video streaming, such as IP-based cable TV networks.
+		- Very first four bits of the first octet in Class D IP addresses are set to 1110.
+		```
+		11100000 - 11101111
+			 224 - 239
+		```
+		- Range: 224.0.0.0 to 239.255.255.255
+			- First octet value range from 224 to 239
+		- Number of Networks: N/A
+		- Number of Hosts per network: Multicasting
+
+	- **Class E:**
+		- Class E IP addresses are not allocated to hosts and are not available for general use. These are reserved for
+		  research purposes.
+		- Range: 240.0.0.0 to 255.255.255.255
+			- First octet value range from 240 to 255
+		- Number of networks: N/A
+		- Number of hosts per network: Research/Reserved/Experimental 
 ### Subnet Mask:
 
 - To separate network addresses from host addresses, IPv4 uses an additional component with IP addresses. This component
