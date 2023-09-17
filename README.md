@@ -198,9 +198,9 @@ specific types of IP addresses:
 		'--------------------'   '---'
 		           ^               ^
 		           |               |
-			dotted decimal         |
-			notation for IP        |
-                              is the number of
-                              bits for network
-                              part.
+			dotted decimal     |
+			notation for IP    |
+  					is the number of
+  					bits for network
+                              		part.
 		```
