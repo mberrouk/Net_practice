@@ -55,7 +55,7 @@ specific types of IP addresses:
 	- Private IP and public IP are either dynamic or static, which means that, respectively, they either change or they
 	  don't.
 	- An IP address that is assigned by a DHCP server is a dynamic IP. If a device doesn't have DHCP enabled or doesn't
-	  support DHCP, then the IP address must be assigned manually, in which case it's called a statis IP address.
+	  support DHCP, then the IP address must be assigned manually, in which case it's called a static IP address.
 		- Dynamic IP:
 			- Always keep changing. It is temporary and are allocated to a device every time it
 		connects to the web. 
@@ -175,4 +175,4 @@ specific types of IP addresses:
 ### Subnet Mask:
 
 - To separate network addresses from host addresses, IPv4 uses an additional component with IP addresses. This component
-  is know as a subnet mask.
+  is know as a *subnet mask*.
