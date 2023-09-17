@@ -176,3 +176,15 @@ specific types of IP addresses:
 
 - To separate network addresses from host addresses, IPv4 uses an additional component with IP addresses. This component
   is know as a *subnet mask*.
+- An IP address is always used with the subnet mask. Without the subnet mask, an IP address is considered an ambiguous
+  address.
+- Bitmask/Subnet mask is used to indicate how many bits are the network part. The network bit are 1, and host bits are
+  0:
+  ```
+  -------------------------------------
+  |11111111.11111111.00000000.00000000|
+  -------------------------------------
+  |255	   |	255	|	0	 |	0	  |
+  -------------------------------------
+  ```
+
