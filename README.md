@@ -194,13 +194,13 @@ specific types of IP addresses:
 		- Is used to indicate how many bits in the beginning of a IP address are network.
 		- CIDR notation is like:
 		```
-		<x> . <x> . <x> . <x>  /  <n>
-		'--------------------'   '---'
+		<x> . <x> . <x> . <x>	  /  	<n>
+		'--------------------'         '---'
 		           	^               ^
-					|               |
-			dotted decimal			|
-			notation for IP			|
-  							is the number of
-  							bits for network
-  							part.
+  				|               |
+			dotted decimal		|
+			notation for IP		|
+  					is the number of
+  					bits for network
+  					part.
 		```
