@@ -197,7 +197,7 @@ specific types of IP addresses:
 		<x> . <x> . <x> . <x>  /  <n>
 		'--------------------'   '---'
 		           ^               ^
-		           |               |
+                           |               |
 			dotted decimal     |
 			notation for IP    |
   					is the number of
