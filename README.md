@@ -179,12 +179,28 @@ specific types of IP addresses:
 - An IP address is always used with the subnet mask. Without the subnet mask, an IP address is considered an ambiguous
   address.
 - Bitmask/Subnet mask is used to indicate how many bits are the network part. The network bit are 1, and host bits are
-  0:
-  ```
-  -------------------------------------
-  |11111111.11111111.00000000.00000000|
-  -------------------------------------
-  |255     |255     |0       |0       |
-  -------------------------------------
-  ```
-
+  0.
+- If a IP address has a bitmask of 255.255.0.0, it means the first 16 bits of IP address is network , and rest the host.
+- There are 2 different ways of writing the mask:
+	- Dot-decimal notation:
+	```
+	  -------------------------------------
+	  |11111111.11111111.00000000.00000000|
+	  -------------------------------------
+	  |255     |255     |0       |0       |
+	  -------------------------------------
+	``` 
+	- Class Inter-Domain Routing or CIDR:
+		- Is used to indicate how many bits in the beginning of a IP address are network.
+		- CIDR notation is like:
+		```
+		<x> . <x> . <x> . <x> / <n>
+		'--------------------' '---'
+		           ^             ^
+		           |             |
+			dotted decimal		 |
+			notation for IP		 |
+							is the number of
+							bits for network
+							part.
+		```
